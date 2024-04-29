@@ -3,3 +3,8 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+.tartalom{
+    background-color: rgba(53, 53, 53, 0.596);
+    color: white;
+}
