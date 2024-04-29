@@ -17,3 +17,12 @@ h1{
     background-color: rgba(53, 53, 53, 0.596);
     color: white;
 }
+.dropdown-menu{
+    background-color: rgb(241, 241, 241);
+    border-radius: 10%;
+   border: rgb(155, 155, 155) 2px solid;
+}
+.dropdown-item{
+    text-align: center;
+    font-weight: bold;
+}
