@@ -8,5 +8,10 @@ h1{
     text-align: center;
 }
 .nav-link{
-   background-color: gray;
+    background-color: gray;
+ }
+ 
+.tartalom{
+    background-color: rgba(53, 53, 53, 0.596);
+    color: white;
 }
