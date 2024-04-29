@@ -17,3 +17,10 @@ h1{
     background-color: rgba(53, 53, 53, 0.596);
     color: white;
 }
+
+.card{
+    text-align: center;
+    margin: 100px 550px;
+    border-radius: 20px;
+    
+}
