@@ -20,8 +20,8 @@ h1{
 
 .card{
     text-align: center;
-    margin: 100px 550px;
-    border-radius: 20px;
+    margin: 6.25rem 34.375rem;
+    border-radius: 1.25rem;
 }
 .dropdown-menu{
     background-color: rgb(241, 241, 241);
