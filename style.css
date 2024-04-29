@@ -22,5 +22,13 @@ h1{
     text-align: center;
     margin: 100px 550px;
     border-radius: 20px;
-    
+}
+.dropdown-menu{
+    background-color: rgb(241, 241, 241);
+    border-radius: 10%;
+   border: rgb(155, 155, 155) 2px solid;
+}
+.dropdown-item{
+    text-align: center;
+    font-weight: bold;
 }
