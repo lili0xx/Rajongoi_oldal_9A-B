@@ -14,7 +14,7 @@ h1{
  }
  
 .tartalom{
-    background-color: rgba(53, 53, 53, 0.596);
+    background-color: rgba(53, 53, 53, 0.863);
     color: white;
     text-align: justify;
     padding: 25px;
@@ -53,6 +53,22 @@ h1{
 .dropdown-item{
     text-align: center;
     font-weight: bold;
+}
+.kartyak{
+    width:100%;
+    overflow:auto;
+}
+.kartya{
+    width:30%;
+    float:left;
+    margin: 20px;
+    background-color: rgb(53, 53, 53);
+    border: solid 2px white;
+    padding: 1%;
+    color: white;
+}
+.also_hely{
+    margin-bottom: 5%;
 }
 #Easter{
     
