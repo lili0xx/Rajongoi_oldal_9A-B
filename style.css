@@ -17,7 +17,7 @@ h1{
     background-color: rgba(53, 53, 53, 0.596);
     color: white;
     text-align: justify;
-    padding: 20px;
+    padding: 25px;
 }
 .jobb{
     float: right;
@@ -37,6 +37,7 @@ h1{
     text-align: center;
     background-color: rgba(53, 53, 53, 0.863);
     color: white;
+    margin: auto;
 }
 
 .card{
