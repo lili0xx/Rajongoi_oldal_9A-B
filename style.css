@@ -73,3 +73,7 @@ h1{
 #Easter{
     
 }
+button{
+    border: 1px solid ;
+    border-radius: 4px;
+}
