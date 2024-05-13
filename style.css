@@ -19,17 +19,24 @@ h1{
     text-align: justify;
     padding: 20px;
 }
-.bal{
-    margin-left: 700px;
-}
 .jobb{
-    margin-right: 700px;
+    float: right;
+}
+.bal{
+    float: left;
+}
+.kep{
+    margin: 20px;
+}
+.kep2{
+    margin: 20px;
+    margin-top: 0px;
 }
 
 #focim{
     text-align: center;
     background-color: rgba(53, 53, 53, 0.863);
-    color: wi;
+    color: white;
 }
 
 .card{
