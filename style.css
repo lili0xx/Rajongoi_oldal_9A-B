@@ -59,16 +59,19 @@ h1{
     overflow:auto;
 }
 .kartya{
-    width:30%;
-    float:left;
-    margin: 20px;
-    background-color: rgb(53, 53, 53);
-    border: solid 2px white;
-    padding: 1%;
-    color: white;
+    border: 1px solid white;
+    padding: 5px;
+    float: left;
+    height: 10%;
+    border-radius: 5%;
 }
 .also_hely{
     margin-bottom: 5%;
+}
+.versenyzokep{
+    float: left;
+    width: 200px;
+    margin: 10px;
 }
 #Easter{
     
@@ -77,3 +80,4 @@ button{
     border: 1px solid ;
     border-radius: 4px;
 }
+
