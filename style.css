@@ -6,9 +6,6 @@ body{
 h1{
     text-align: center;
 }
-.navbar-nav{
-    width: 50%;
-}
 .nav-link{
    background-color: rgb(241, 241, 241);
    border-radius: 10%;
