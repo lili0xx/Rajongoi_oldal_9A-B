@@ -3,7 +3,6 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
 }
-
 h1{
     text-align: center;
 }
@@ -14,7 +13,7 @@ h1{
  }
  
 .tartalom{
-    background-color: rgba(53, 53, 53, 0.596);
+    background-color: rgba(53, 53, 53, 0.863);
     color: white;
     text-align: justify;
     padding: 25px;
@@ -53,6 +52,25 @@ h1{
 .dropdown-item{
     text-align: center;
     font-weight: bold;
+}
+.kartyak{
+    width:100%;
+    overflow:auto;
+}
+.kartya{
+    border: 1px solid white;
+    padding: 5px;
+    float: left;
+    height: 10%;
+    border-radius: 5%;
+}
+.also_hely{
+    margin-bottom: 5%;
+}
+.versenyzokep{
+    float: left;
+    width: 200px;
+    margin: 10px;
 }
 #Easter{
     
