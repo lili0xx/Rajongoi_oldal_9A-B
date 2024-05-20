@@ -80,7 +80,11 @@ button{
     border-radius: 4px;
 }
 .igaz{
-    color: greenyellow;
+    color: rgb(0, 255, 4);
+    font-weight: bold;
+}
+.hamis{
+    color: red;
     font-weight: bold;
 }
 
