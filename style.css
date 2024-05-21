@@ -78,8 +78,11 @@ h1{
 button{
     border: 1px solid ;
     border-radius: 4px;
+
 }
 .igaz{
+    color: greenyellow;
+    color: rgb(0, 255, 4);
     color: rgb(0, 255, 4);
     font-weight: bold;
 }
@@ -87,6 +90,8 @@ button{
     color: red;
     font-weight: bold;
 }
+
+
 
 
 .carousel-inner img {
@@ -103,3 +108,4 @@ button{
     border-radius: 0 35px 35px 0;
     margin-bottom: -75px;
 }
+
