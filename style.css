@@ -78,19 +78,18 @@ h1{
 button{
     border: 1px solid ;
     border-radius: 4px;
-<<<<<<< HEAD
 
-=======
->>>>>>> 824bb07c14a8f54832470ac0b555c33f73e96b22
 }
 .igaz{
     color: greenyellow;
+    color: rgb(0, 255, 4);
     font-weight: bold;
 }
-<<<<<<< HEAD
+.hamis{
+    color: red;
+    font-weight: bold;
+}
 
-=======
->>>>>>> 824bb07c14a8f54832470ac0b555c33f73e96b22
 
 
 .carousel-inner img {
@@ -107,7 +106,4 @@ button{
     border-radius: 0 35px 35px 0;
     margin-bottom: -75px;
 }
-<<<<<<< HEAD
 
-=======
->>>>>>> 824bb07c14a8f54832470ac0b555c33f73e96b22
