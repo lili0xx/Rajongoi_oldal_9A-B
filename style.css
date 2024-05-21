@@ -112,3 +112,10 @@ button{
     width: 40%;
     border-radius: 10%;
 }
+.cardd{
+    text-align: center;
+    margin: auto;
+    border-radius: 1.25rem;
+    border: gray 5px solid;
+}
+
