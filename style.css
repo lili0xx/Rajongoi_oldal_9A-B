@@ -114,8 +114,9 @@ button{
 }
 .cardd{
     text-align: center;
-    margin: auto;
+    margin: 0% 20%;
     border-radius: 1.25rem;
     border: gray 5px solid;
+    background-color: aliceblue;
 }
 
