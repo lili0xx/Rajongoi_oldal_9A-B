@@ -108,4 +108,7 @@ button{
     border-radius: 0 35px 35px 0;
     margin-bottom: -75px;
 }
-
+.kartya_2{
+    width: 40%;
+    border-radius: 10%;
+}
