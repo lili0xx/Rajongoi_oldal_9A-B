@@ -83,6 +83,11 @@ button{
 .igaz{
     color: greenyellow;
     color: rgb(0, 255, 4);
+    color: rgb(0, 255, 4);
+    font-weight: bold;
+}
+.hamis{
+    color: red;
     font-weight: bold;
 }
 .hamis{
