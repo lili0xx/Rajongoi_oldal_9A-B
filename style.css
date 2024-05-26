@@ -115,12 +115,32 @@ button{
     border-radius: 4px;
     font-size: 22px;
     background-color: rgb(240, 240, 240);
-    position: relative;
-    padding: 10px 10px 10px 50px;
-    display: block;
-    margin-right: 65%;
-    margin-left: 3%;
+    padding: 10px 10px 10px 20px;
+ margin-left: 2%; 
+ margin-right: 50%;
+    text-align: center;
+}
+.valasz2{
+    text-align: center;
+    border: 1px solid ;
+    border-radius: 4px;
+    font-size: 22px;
+    background-color: rgb(240, 240, 240);
+    padding: 10px 10px 10px 20px;
+    margin-left: 2%;
+    margin-right: 18%;
+    
+
 }
  h2{
     margin-left: 2%;
  }
+ .cards{
+    background-color: aliceblue;
+    border: 1px solid rgb(224, 224, 224);
+  margin: 0% 5%;
+    border-radius: 10px;
+ }
+.card-text{
+    text-align: justify ;
+}

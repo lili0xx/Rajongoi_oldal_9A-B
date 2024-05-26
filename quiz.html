@@ -35,25 +35,7 @@
 
 </div>
     <h1>Quiz</h1>
-  <script>
-    function clickNextButton(n){
-      submitAnswer(n+1)
-    }
-    
-    function clickRadio(elmnt) {
-      var n, i, x;
-      n = elmnt.id;
-      for (i = 1; i < 5; i++) {
-        x = document.getElementById("label" + i);
-        if (x) {x.className = x.className.replace(" checkedlabel", "");}
-      }
-      document.getElementById("label" + n).className += " checkedlabel";
-    }
-    function submitAnswer(n) {
-      var f = document.getElementById("quizform");
-      f["nextnumber"].value = n;
-      f.submit();
-    }
+
     
     
   </script>
@@ -91,9 +73,9 @@
                         <div class="card-body">
                         <h2  class="card-title">Milyenek az Enduro motorok?</h2>
                         <br>
-                        <div class="valasz"><input   id="nagyobb" name="question4" value="a"  type="radio" ></input><label for="nagyobb"   >nagyob testűek, nagyobb kerékkel rendelkeznek</label></div>
-                        <div class="valasz"><input   id="vekonyak" name="question4" value="b" type="radio"  ></input><label for="vekonyak"   >vékonyak, könnyűek és könnyen irányíthatóak</label></div>
-                        <div class="valasz"><input   id="szoges" name="question4" value="c" type="radio"  ></input><label for="szoges"   >vékonyak, szöges gumikkal rendelkezik</label></div>
+                        <div class="valasz2"><input   id="nagyobb" name="question4" value="a"  type="radio" ></input><label for="nagyobb"   >nagyob testűek, nagyobb kerékkel rendelkeznek</label></div>
+                        <div class="valasz2"><input   id="vekonyak" name="question4" value="b" type="radio"  ></input><label for="vekonyak"   >vékonyak, könnyűek és könnyen irányíthatóak</label></div>
+                        <div class="valasz2"><input   id="szoges" name="question4" value="c" type="radio"  ></input><label for="szoges"   >vékonyak, szöges gumikkal rendelkezik</label></div>
                         <br>
                          </div>
                         <div class="card-body">
