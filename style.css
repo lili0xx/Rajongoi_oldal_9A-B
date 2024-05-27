@@ -78,22 +78,7 @@ h1{
 button{
     border: 1px solid ;
     border-radius: 4px;
-
 }
-.igaz{
-    color: greenyellow;
-    color: rgb(0, 255, 4);
-    color: rgb(0, 255, 4);
-    font-weight: bold;
-}
-.hamis{
-    color: red;
-    font-weight: bold;
-}
-
-
-
-
 .carousel-inner img {
     width: 100%;
     height: 90%;
@@ -113,10 +98,45 @@ button{
     border-radius: 10%;
 }
 .cardd{
-    text-align: center;
+    text-align: left;
     margin: 0% 20%;
     border-radius: 1.25rem;
     border: gray 5px solid;
     background-color: aliceblue;
 }
+ .valasz{
+    border: 1px solid ;
+    border-radius: 4px;
+    font-size: 22px;
+    background-color: rgb(240, 240, 240);
+    padding: 10px 10px 10px 20px;
+ margin-left: 2%; 
+ margin-right: 50%;
+    text-align: center;
+}
+.valasz2{
+    text-align: center;
+    border: 1px solid ;
+    border-radius: 4px;
+    font-size: 22px;
+    background-color: rgb(240, 240, 240);
+    padding: 10px 10px 10px 20px;
+    margin-left: 2%;
+    margin-right: 18%;
+    
+
+}
+ h2{
+    margin-left: 2%;
+ }
+ .cards{
+    background-color: aliceblue;
+    border: 1px solid rgb(224, 224, 224);
+  margin: 0% 5%;
+    border-radius: 10px;
+ }
+.card-text{
+    text-align: justify ;
+}
+
 

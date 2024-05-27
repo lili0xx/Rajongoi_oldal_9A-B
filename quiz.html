@@ -35,70 +35,83 @@
 
 </div>
     <h1>Quiz</h1>
-  
 
-
-        
-          
+    
+    
+  </script>
             <div class="row">
               <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12" >
-                <div class="cardd">
-                    <div class="card-body">
-                          <h4 class="card-title">Mikor indult el a MotOGP?</h4>
+                <div class="cardd" >
+                   <form id="quiz-form">
+                      <div class="card-body">
+                            <h2  class="card-title">Mikor indult el a MotOGP?</h2>
+                            <br>
+                            <div class="valasz"><input  id="1973" name="question1" value="a"   type="radio"></input><label for="1973">1973</label></div>
+                            <div class="valasz"><input  id="1987" name="question1" value="b"  type="radio"></input><label for="1987">1987</label></div>
+                            <div class="valasz"><input  id="1949" name="question1" value="c"   type="radio"></input><label for="1949">1949</label></div>
+                            <div class="valasz"><input  id="1991" name="question1" value="d"   type="radio"></input><label for="1991">1991</label></div>
+                            <br>
+                        </div>
+                          <div class="card-body">
+                            <h2  class="card-title">Meddig voltak 350 cm³ kategóriások?</h2>
+                            <br>
+                            <div class="valasz"><input   id="1982-ig" name="question2" value="a"  type="radio" ></input><label  for="1982-ig" >1982-ig</label></div>
+                            <div class="valasz"><input   id="1965-ig" name="question2" value="b" type="radio" ></input><label   for="1965-ig">1965-ig</label></div>
+                            <div class="valasz"><input   id="1955-ig" name="question2" value="c" type="radio" ></input><label   for="1955-ig">1955-ig</label></div>
+                            <div class="valasz"><input   id="1975-ig" name="question2" value="d" type="radio" ></input><label   for="1975-ig">1975-ig</label></div>
+                            <br>
+                          </div>
+                          <div class="card-body">
+                          <h2  class="card-title">Mikor vettek részt az 50-cm³ motorok? </h2>
                           <br>
-                          <button type="button" onclick="document.getElementById('false').style.display='block'">1973</button>
-                          <button type="button"  onclick="document.getElementById('true').style.display='block'">1949</button>
+                          <div class="valasz"><input id="1984–1989" name="question3" value="a"  type="radio" ></input><label for="1984–1989">1984–1989</label></div>
+                          <div class="valasz"><input id="1962–1983" name="question3" value="b" type="radio" ></input><label for="1962–1983">1962–1983</label></div>
+                          <div class="valasz"><input id="1962–1981" name="question3" value="c" type="radio" ></input><label for="1962–1981">1962–1981</label></div>
+                          <div class="valasz"><input id="1962–1973" name="question3" value="d" type="radio" ></input><label for="1962–1973">1962–1973</label></div>
                           <br>
-                          <p class="igaz" id="true" style="display: none;">True</p>
-                          <p class="hamis" id="false" style="display: none;" >False</p>
-                          
-                  </div>
-                  <div class="card-body">
-                        <h4 class="card-title">Meddig voltak 350 cm³ kategóriások?</h4>
+                        </div>
+                        <div class="card-body">
+                        <h2  class="card-title">Milyenek az Enduro motorok?</h2>
                         <br>
-                        <button type="button" onclick="document.getElementById('truee').style.display='block'">1982-ig</button>
-                        <button type="button" onclick="document.getElementById('falsee').style.display='block'">1965-ig</button>
+                        <div class="valasz2"><input   id="nagyobb" name="question4" value="a"  type="radio" ></input><label for="nagyobb"   >nagyob testűek, nagyobb kerékkel rendelkeznek</label></div>
+                        <div class="valasz2"><input   id="vekonyak" name="question4" value="b" type="radio"  ></input><label for="vekonyak"   >vékonyak, könnyűek és könnyen irányíthatóak</label></div>
+                        <div class="valasz2"><input   id="szoges" name="question4" value="c" type="radio"  ></input><label for="szoges"   >vékonyak, szöges gumikkal rendelkezik</label></div>
                         <br>
-                         <p class="igaz" id="truee" style="display: none;">True</p>
-                         <p class="hamis" id="falsee" style="display: none;" >False</p>
-                  </div>
-                  <div class="card-body">
-                      <h4 class="card-title">Mikor vettek részt az 50-cm³ motorok? </h4>
-                      <br>
-                      <button type="button" onclick="document.getElementById('falseee').style.display='block'">1984–1989</button>
-                      <button type="button"  onclick="document.getElementById('trueee').style.display='block'">1962–1983</button>
-                      <br>
-              
-                         <p class="igaz" id="trueee" style="display: none;">True</p>
-                         <p class="hamis" id="falseee" style="display: none;" >False</p>
-                  </div>
-                  <div class="card-body">
-                    <h4 class="card-title">Milyenek az Enduro motorok?</h4>
-                    <br>
-                    <button type="button" onclick="document.getElementById('falseeee').style.display='block'">nagyob testűek, nagyobb kerékkel rendelkeznek</button>
-                    <button type="button"  onclick="document.getElementById('trueeee').style.display='block'">vékonyak, könnyűek és könnyen irányíthatóak</button>
-                    <br>
-                     <p class="igaz" id="trueeee" style="display: none;">True</p>
-                     <p class="hamis" id="falseeee" style="display: none;" >False</p>
-                  </div>
-                  <br>
-                  <div class="card-body">
-                    <h4 class="card-title">A Crossmotorok csak terepre alkalmasak?</h4>
-                    <br>
-                    <button type="button" onclick="document.getElementById('trueeeee').style.display='block'">Igen</button>
-                    <button type="button"  onclick="document.getElementById('falseeeee').style.display='block'">Nem</button>
-                    
-                     <p class="igaz" id="trueeeee" style="display: none;">True</p>
-                     <p class="hamis" id="falseeeee" style="display: none;" >False</p>
-                     <br>
-                  </div>
-                  <br>
-                       <button type="submit" class="btn btn-success">Submit</button><button type="reset" class="btn btn-danger">Reset</button>
-              
-                 </div>
+                         </div>
+                        <div class="card-body">
+                        <h2  class="card-title">A Crossmotorok csak terepre alkalmasak?</h2>
+                        <br>
+                        <div class="valasz"><input   id="Igen" name="question5" value="a"  type="radio"></input><label for="Igen" >Igen</label></div>
+                        <div class="valasz"><input   id="Nem" name="question5"  value="a" type="radio"></input><label for="Nem"  >Nem</label></div>
+                         <br>
+                        </div>
+                        <button type="button" onclick="checkAnswers()">Ellenőrzés</button>
+                   </form>              
+                     </div>
                 </div>
               </div>
             </div>
-        
+            <script>
+             function checkAnswers() {
+            const form = document.getElementById('quiz-form');
+            const answers = {
+                question1: 'c', //
+                question2: 'a',
+                question3: 'b',
+                question4: 'b',
+                question5: 'a',
+            };
+
+            let score = 0;
+            for (const question in answers) {
+                const selectedAnswer = form.querySelector(`input[name="${question}"]:checked`);
+                if (selectedAnswer && selectedAnswer.value === answers[question]) {
+                    score++;
+                }
+            }
+
+            alert(`Eredmény: ${score} / ${Object.keys(answers).length}`);
+        }
+          </script>
 </body>
 </html>
